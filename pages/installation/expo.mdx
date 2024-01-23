@@ -6,19 +6,24 @@ title: Expo
 
 ## 1. Create the project
 
-```bash
+```bash copy
 npx create-expo-app my-app
 cd my-app
 ```
 
+## 2. Install sidcn
+
+```bash copy
+yarn add sidcn
+```
 You will need to install nativewind and its peer dependency tailwindcss.
 
-```bash
+```bash copy
 yarn add nativewind
 yarn add --dev tailwindcss@3.3.2
 ```
 
-## 2. Setup Tailwind CSS
+## 3. Setup Tailwind CSS
 
 Run the following command to create a tailwind.config.js file:
 
@@ -51,7 +56,7 @@ module.exports = {
 };
 
 ```
-## 3. Add the Babel plugin
+## 4. Add the Babel plugin
 
 Modify your babel.config.js file:
 
