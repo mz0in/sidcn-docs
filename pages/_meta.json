@@ -1,15 +1,24 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "installation": {
+    "title": "Installation"
+  },
+  "---": {
+    "type": "separator"
+  },
+  "components": {
+    "title": "Components"
+  },
   "about": {
-    "title": "About",
+    "title": "Docs",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "example": {
+    "title": "Example",
+    "type": "page"
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "page"
   }
 }
