@@ -3,13 +3,16 @@
   "installation": {
     "title": "Installation"
   },
-  "---": {
-    "type": "separator"
-  },
   "components": {
-    "title": "Components"
+    "title": "Components",
+    "alert": {
+      "title": "Alert"
+    },
+    "button": {
+      "title": "Button"
+    }
   },
-  
+
   "about": {
     "title": "Docs",
     "type": "page"
